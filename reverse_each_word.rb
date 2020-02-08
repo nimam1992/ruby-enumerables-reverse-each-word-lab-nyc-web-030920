@@ -1,3 +1,3 @@
 def reverse_each_word(sentence)
-  sentence.each{|string| string.reverse}
+  sentence.map{|string| string.reverse}
 end
