@@ -1,3 +1,3 @@
-require_relative '../reverse_each_word.rb'
+require 'spec_helper'
 
-pp '../reverse_each_word.rb'
+pp spec_helper
