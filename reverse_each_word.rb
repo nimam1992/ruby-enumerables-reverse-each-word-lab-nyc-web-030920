@@ -1,5 +1,4 @@
-def reverse_each_word(x)
+def reverese_each_word(x)
   ors = x.split(" ")
+  ors.each{|word| p word.reverse}
 end
-
-reverse_each_word('Hello there, and how are you?').collect{|word| p word.reverse}
