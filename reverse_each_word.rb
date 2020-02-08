@@ -1,4 +1,4 @@
 def reverse_each_word(x)
   ors = x.split(" ")
-  ors.each{|word| p word.reverse}
+  ors.collect{|word| word.reverse}
 end
