@@ -1,5 +1,5 @@
 def reverse_each_word(x)
   ors = x.split(" ")
-  x = ors.collect{|word| word.reverse}
-  yield (x)
+  carl = ors.collect{|word| word.reverse}
+  yield (carl)
 end
